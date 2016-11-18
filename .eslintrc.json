@@ -1,0 +1,13 @@
+{
+  "rules": {
+    "space-before-function-paren": ["error", "never"],
+    "no-multiple-empty-lines": ["error", {
+      "max": 2
+    }]
+  },
+  "globals": {
+    "Phaser": true,
+    "angular": true
+  },
+  "extends": "standard"
+}

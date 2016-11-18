@@ -1,0 +1,22 @@
+{
+  "name": "phaser-es6",
+  "version": "1.0.0",
+  "description": "phaser es6 example",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./server/server.js"
+  },
+  "author": "Jose Agustin Villalobos",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.14.0",
+    "morgan": "1.7.0",
+    "phaser": "2.6.2"
+  },
+  "devDependencies": {
+    "eslint": "3.10.2",
+    "eslint-config-standard": "6.2.1",
+    "eslint-plugin-promise": "3.3.2",
+    "eslint-plugin-standard": "2.0.1"
+  }
+}
