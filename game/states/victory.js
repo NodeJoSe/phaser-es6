@@ -1,5 +1,3 @@
-import Phaser from 'phaser'
-
 export default class Victory extends Phaser.State {
   create() {
     let textStyle = {

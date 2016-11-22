@@ -1,6 +1,4 @@
-import Phaser from 'phaser'
-
-export class Wizard extends Phaser.Sprite {
+export default class Wizard extends Phaser.Sprite {
   constructor(game, x, y) {
     super(game, x, y, 'wizard')
     this

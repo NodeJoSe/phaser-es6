@@ -15,7 +15,7 @@ export default class Load extends Phaser.State {
     this
       .game
       .load
-      .spritesheet('wizard', '../assets/wizardsprite.png', 95, 123, 6)
+      .spritesheet('wizard', 'assets/wizardsprite.png', 95, 123, 6)
   }
 
   create() {

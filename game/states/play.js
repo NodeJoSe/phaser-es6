@@ -1,4 +1,3 @@
-import Phaser from 'phaser'
 import Wizard from '../sprites/wizard'
 
 export default class Play extends Phaser.State {

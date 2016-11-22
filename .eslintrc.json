@@ -1,5 +1,6 @@
 {
   "rules": {
+    "no-new": 0,
     "space-before-function-paren": ["error", "never"],
     "no-multiple-empty-lines": ["error", {
       "max": 2

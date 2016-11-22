@@ -12,12 +12,13 @@ const app = express()
 
 app.use(logger('dev'))
 app.use('/libs', express.static(path.join(__dirname, '../node_modules')))
-app.use(express.static(path.join(__dirname, '../client')))
+app.use('/dist', express.static(path.join(__dirname, '../dist')))
+app.use(express.static(path.join(__dirname, '../game')))
 
 app.get('*', html5Mode)
 
 function html5Mode(req, res) {
-  res.sendFile(path.join(__dirname, '../client/index.html'))
+  res.sendFile(path.join(__dirname, '../game/index.html'))
 }
 
 // error handlers
