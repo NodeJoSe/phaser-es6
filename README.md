@@ -1,6 +1,6 @@
 # phaser-es6 example
 
-Based on Richard Davey es6 tutorial. 
+Based on thecodingcouple (Michael Grenon and Ashley Grenon) phaser-es2015 tutorial. 
 
 Used gulp, browserify and babelify to transpile.
 
