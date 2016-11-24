@@ -1,14 +1,14 @@
 {
-  "rules": {
-    "no-new": 0,
-    "space-before-function-paren": ["error", "never"],
-    "no-multiple-empty-lines": ["error", {
-      "max": 2
-    }]
+  "rules":{
+    "no-use-before-define": ["error", { "functions": false, "classes": true }],
+    "no-param-reassign": ["error", { "props": false }],
+    "linebreak-style": 0,
+    "no-new": 0
   },
   "globals": {
-    "Phaser": true,
-    "angular": true
+    "angular": true,
+    "document": true,
+    "Phaser": true
   },
-  "extends": "standard"
+  "extends": "airbnb-base"
 }
